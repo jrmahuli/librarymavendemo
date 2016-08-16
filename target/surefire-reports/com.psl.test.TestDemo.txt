@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.psl.test.TestDemo
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.689 sec <<< FAILURE!
+com.psl.test.TestDemo.testValidateLogin1()  Time elapsed: 0.721 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.psl.test.TestDemo.testValidateLogin1(TestDemo.java:30)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	... 19 more
+com.psl.test.TestDemo.testRegisterCustomer1()  Time elapsed: 0.452 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.psl.test.TestDemo.testRegisterCustomer1(TestDemo.java:47)
+com.psl.test.TestDemo.testAddBook1()  Time elapsed: 0.516 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.psl.test.TestDemo.testAddBook1(TestDemo.java:40)
